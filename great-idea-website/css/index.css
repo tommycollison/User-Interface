@@ -44,7 +44,6 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +63,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	font-color: grey;
+}
+
+li {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+#top_stuff {
+}
+
+#headline_div {
+	font-size: 70px;
+	padding: 20px 20px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	width: 40%;
+	text-align: center;
+	align-self: right;
+	display: inline-block;
+
+}
+
+#header_img_div {	
+	height: auto;
+	width: 30%;
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	align-self: right;
+	
+}
+
+
+#button {
+	border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 40px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#top_left_text {
+	width: 49%;
+	display: inline-block;
+}
+
+#top_right_text {
+	width: 49%;
+	display: inline-block;
+}
+
+#middle_img_div {
+	padding: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#middle_img {
+	width: 95%;
+	height:	auto;
+}
+
+#bottom_left_text {
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#bottom_center_text {
+	width: 33%;
+	display: inline-block;
+}
+
+#bottom_right_text {
+	width: 33%;
+	display: inline-block;
+}
+
+#copyright {
+	margin: auto;
+    width: 50%;
+}
+
+address {
+	margin-top: 10px;
+}
