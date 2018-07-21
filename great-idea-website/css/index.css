@@ -97,8 +97,8 @@ li a {
 	margin-bottom: 100px;
 	width: 40%;
 	text-align: center;
-	align-self: right;
 	display: inline-block;
+	position: relative;
 
 }
 
@@ -108,8 +108,9 @@ li a {
 	display: inline-block;
 	margin-top: 100px;
 	margin-bottom: 50px;
-	align-self: right;
-	
+	position: relative;
+	top: 60px;
+   	left: 60px;
 }
 
 
